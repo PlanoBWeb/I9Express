@@ -1,0 +1,1 @@
+<p class="txt-quem-somos">Obrigado, em breve entraremos em contato!</p>

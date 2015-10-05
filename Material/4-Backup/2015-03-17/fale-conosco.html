@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>I9 Express - Entregas Rápidas</title>
+
+
+        <link rel="stylesheet" type="text/css" media="screen" href="css/i9.css" />
+        
+        <!-- VALIDAÇÃO DO FORMULÁRIO -->
+		<script language="JavaScript">
+
+        function validaForm(){
+
+            d = document.contato;
+
+            //validar NOME
+            if (d.NOME.value == ""){
+                alert("O campo " + d.NOME.name + " deve ser preenchido!");
+                d.NOME.focus();
+                return false;
+            }
+			var re = document.contato.NOME.value;
+			if(re.match(["www|Www|WWw|WWW|http|Http|HTtp|HTTp|HTTP|<a|<A"])) {
+				alert("O campo " + d.NOME.name + " não aceita referências para domínios web!");
+                d.NOME.focus();
+				return false;
+			}
+			if (document.contato.NOME.value.length > 75)	{
+				alert("O campo " + d.NOME.name + " ultrapassou o limite de 75 caracteres");
+                d.NOME.focus();
+                return false;
+            }
+
+
+            //validar EMAIL
+            if (d.EMAIL.value == ""){
+                alert("O campo " + d.EMAIL.name + " deve ser preenchido!");
+                d.EMAIL.focus();
+                return false;
+            }
+            //validar email(verificao de endereco eletronico)
+            parte1 = d.EMAIL.value.indexOf("@");
+            parte2 = d.EMAIL.value.indexOf(".");
+            parte3 = d.EMAIL.value.length;
+            if (!(parte1 >= 3 && parte2 >= 6 && parte3 >= 9)) {
+                alert("O campo " + d.EMAIL.name + " deve conter um endereço eletrônico válido!");
+                d.EMAIL.focus();
+                return false;
+            }
+			var re = document.contato.EMAIL.value;
+			if(re.match(["www|Www|WWw|WWW|http|Http|HTtp|HTTp|HTTP|<a|<A"])) {
+				alert("O campo " + d.EMAIL.name + " não aceita referências para domínios web!");
+                d.EMAIL.focus();
+				return false;
+			}
+			if (document.contato.EMAIL.value.length > 100)	{
+				alert("O campo " + d.EMAIL.name + " ultrapassou o limite de 100 caracteres");
+                d.EMAIL.focus();
+                return false;
+            }
+
+            //validar DDD
+			if (document.contato.DDD.value.length > 3)	{
+				alert("O campo DDD ultrapassou o limite de 3 caracteres");
+                d.DDD.focus();
+                return false;
+            }
+
+            //validar NUM
+			var re = document.contato.NUM.value;
+			if(re.match(["www|Www|WWw|WWW|http|Http|HTtp|HTTp|HTTP|<a|<A"])) {
+				alert("O campo NUMERO DO TELEFONE não aceita referências para domínios de Websites!");
+                d.NUM.focus();
+				return false;
+			}
+			if (document.contato.NUM.value.length > 20)	{
+				alert("O campo NUMERO DO TELEFONE ultrapassou o limite de 20 caracteres");
+                d.NUM.focus();
+                return false;
+            }
+
+            //validar MENSAGEM
+            if (d.MENSAGEM.value == ""){
+                alert("O campo " + d.MENSAGEM.name + " deve ser preenchido!");
+                d.MENSAGEM.focus();
+                return false;
+            }
+			var re = document.contato.MENSAGEM.value;
+			if(re.match(["www|Www|WWw|WWW|http|Http|HTtp|HTTp|HTTP|<a|<A"])) {
+				alert("O campo " + d.MENSAGEM.name + " não aceita referências para domínios de Websites!");
+                d.MENSAGEM.focus();
+				return false;
+			}
+			if (document.contato.MENSAGEM.value.length > 250)	{
+				alert("O campo " + d.MENSAGEM.name + " ultrapassou o limite de 250 caracteres");
+                d.MENSAGEM.focus();
+                return false;
+            }
+        }
+    	</script>
+		<!-- FIM - VALIDAÇÃO DO FORMULÁRIO -->
+
+        <!-- VALIDA NUMERO -->
+		<script type="text/javascript">
+		function numero(evtKeyPress)
+		{
+			var nTecla = 0;
+			if (document.all) {
+				nTecla = evtKeyPress.keyCode;
+			} else {
+				nTecla = evtKeyPress.which;
+			}
+			if ((nTecla > 47 && nTecla < 58)
+			|| nTecla == 8 || nTecla == 127
+			|| nTecla == 0 || nTecla == 9  // 0 == Tab
+			|| nTecla == 13) { // 13 == Enter
+				return true;
+			} else {
+				return false;
+			}
+		}
+    	</script>
+		<!-- FIM - VALIDA NUMERO -->
+
+</head>
+
+    <body>
+    	<div class="page">
+        	<div class="wr-top">
+            	<div class="ct-topo">
+                	<h1>
+                    	<a href="index.html" title="I9 Express - Entregas Rápidas">I9 Express - Entregas Rápidas</a>
+                    </h1>
+                    <ul class="menu-apoio">
+                    	<li><a href="index.html" title="Home Page" class="home">Home Page</a></li>
+                    	<li><a href="mailto:i9logexpress@i9logexpress.com.br" title="i9logexpress@i9logexpress.com.br" class="tel">i9logexpress@i9logexpress.com.br</a></li>
+                    </ul>
+                    <ul class="menu-principal">
+                    	<li><a href="quem-somos.html" title="Quem Somos" class="btn-1">Quem Somos</a>&nbsp;</li>
+                    	<li><a href="servicos.html" title="Serviços" class="btn-2">Serviços</a></li>
+                    	<li><a href="transporte-rodoviario-aereo.html" title="Transporte Rodoviário e Aéreo " class="btn-3">Transporte Rodoviário e Aéreo</a></li>
+                    	<li><a href="fale-conosco.html" title="Fale Conosco" class="btn-4 ativo">Fale Conosco</a></li>
+                         <li><a href="acesso-restrito.html" title="Acesso Restrito" class="btn-5">Acesso Restrito</a></li>
+                    </ul>
+              </div>
+            </div>
+			<div class="wr-content">
+
+           	     <div class="ct-line">
+                 </div>
+
+            	<div class="ct-content ct-interna">
+
+				<h2 class="titulo-internas">Fale Conosco</h2>
+
+				<div class="fale-form">
+
+                 <form name="contato" action="envia.php" method="post" onSubmit="return validaForm()">
+
+				  <fieldset class="fm-fale"> 
+
+                  <table border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td><label for="name">Seu Nome (*):</label><input id="nome" name="NOME" type="text" class="geral1" maxlength="75" tabindex="1" title="Informe o seu nome" /></td>
+                              </tr>
+                              <tr>
+                                <td><label for="email">E-mail (*):</label><input id="email" name="EMAIL" type="text" class="geral1" maxlength="75" tabindex="2" title="Informe o seu e-mail" /></td>
+                              </tr>
+                                <tr>
+                                    <td><label for="telefone">Telefone:</label> <label for="ddd" class="ddd">DDD:</label> <input id="ddd" name="DDD" type="text" class="ddd" maxlength="3" tabindex="3" onkeypress="return numero(event)"/> <label class="num" for="num">Numero:</label> <input id="num" name="NUM" type="text" class="num" maxlength="20" tabindex="4" /></td>
+                                </tr>
+                                
+                                
+                                  <tr><td>
+                                  <span style="padding-right:0px"><label for="pergunta" style="font-size: 11px">Onde nos achou?</label></span>
+                                <form>
+                                <select name = "PERGUNTA" SIZE=0>
+                                      <option>Selecione</option>
+                                      <option>Google</option>
+                                      <option>Indicação de Amigos</option>
+                                      <option>Indicação de Lojas</option>
+                                  </SELECT>
+                                  
+                                </form>
+                            
+                                </td>
+                                </tr>           
+                                
+                                
+                                
+                                
+                                <tr>
+                                    <td><label for="mensagem">Mensagem (*):</label> <textarea id="mensagem" name="MENSAGEM" rows="3" cols="22" type="text" maxlength="150" tabindex="5" /></textarea></td>
+                                </tr>
+                              <tr>
+                                <td><span class="botoes"><input type="submit" value="Enviar"  class="btn-enviar" title="Enviar Formulário"/></span></td>
+                              </tr>
+                 </table>
+                 </fieldset>
+                </form>
+				</div>           	
+
+				<div class="fale-info">
+				 	Agradecemos o seu interesse em nossos produtos e serviços.<br><br>
+				    Caso tenha alguma dúvida, sugestão ou deseje fazer contato conosco, preencha o formulário ao lado que responderemos no menor tempo possível.
+				   <br>
+				  <h2 class="bold">Outros Contatos</h2>
+					Atendimento: (11) 2272-7067 / 2272-7081<br />
+				    E-mail: <a href="mailto:i9logexpress@i9logexpress.com.br" title="Fale Conosco">i9logexpress@i9logexpress.com.br</a><br>
+				  <h2 class="bold">Localização</h2>
+                    <p>Rua Bom Pastor, 1141 – Ipiranga – CEP: 04203-051</p>
+                    <p>São Paulo – SP – Brasil                    </p>
+
+                </div>   
+            	</div>
+
+           	  <div class="ct-footer">
+                <address>
+                		<strong>©I9 Express - Todos os direitos reservados.</strong>
+                        Rua Bom Pastor, 1141 – Ipiranga – CEP: 04203-051 - São Paulo - SP<br />
+                        Telefone: (11) 2272-7067 / 2272-7081<br />
+						E-mail: <a href="mailto:i9logexpress@i9logexpress.com.br " class="email" title="Fale Conosco">i9logexpress@i9logexpress.com.br </a><br />
+                </address>
+                    <ul class="share">
+                    	<li><a href="http://www.planobweb.com.br" target="_blank" class="creditos" title="Planobweb">PlanoBWeb</a></li>
+                    </ul>
+                       </div>
+          </div>
+        </div>
+    </body>
+</html>
