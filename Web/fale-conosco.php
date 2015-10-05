@@ -78,6 +78,7 @@
 					<div class="bloco-encapsula-servicos">
 						<p class="txt-quem-somos">Para enviar sua dúvida, crítica ou sugestões, preencha o formulário abaixo retornaremos o mais breve possível.</p>
 						<form class="contato-fale-conosco" method="post" action="envia.php" name="contato2">
+							<input type="hidden" name="pagina" value="<?php echo $pagina; ?>">
 							<input class="form-orcamento" type="text" name="nome" placeholder="* Nome">
 							<input class="form-orcamento"  type="text" name="email" placeholder="* e-mail">
 							<input class="form-orcamento"  type="text" name="telefone" placeholder="* Telefone">
