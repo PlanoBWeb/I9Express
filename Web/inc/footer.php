@@ -38,4 +38,14 @@
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
    });
+    $(function(){   
+		var nav = $('.ancora');   
+		$(window).scroll(function () { 
+			if ($(this).scrollTop() > 140) { 
+				nav.show(); 
+			}else{
+				nav.hide();
+			}
+		});  
+	});
 </script>
