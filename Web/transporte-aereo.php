@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="" />
+	<meta name="description" content="Transporte Aéreo de Cargas da I9 atende a todo o Brasil ." />
 	<link href="img/icon-tab.png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<!-- Bootstrap -->
@@ -18,7 +18,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>I9</title>
+	<title>Transporte Aéreo de Cargas é com a I9!</title>
 </head>
 <body>
 	<div class="container-fluid">
@@ -33,18 +33,18 @@
 				<div class="bg-container-esquerda"></div>
 				<article class="bloco-servicos">
 					<div class="bloco-titulo-servico">
-						<img class="seta-servico" src="img/seta.png">
-						<h1 class="titulo-servico">SERVIÇOS:</h1>
+						<img class="seta-servico" src="img/seta.png" alt="seta" title="seta">
+						<h2 class="titulo-servico">SERVIÇOS:</h2>
 					</div>
 					<div class="bloco-encapsula-servicos">
-						<img src="img/icon-aviao.png" align="left" style="margin-right: 10px;">
+						<img src="img/icon-aviao.png" class="img-icon-servico" alt="icone aviao" title="icone aviao">
 						<h1 class="titulo-bloco-quem">I9 Transporte Aéreo de Cargas</h1>
 						<p class="txt-quem-somos">O serviço “I9 Transporte Aéreo de Cargas” atende a todo o Brasil e garante a coleta e entrega da carga ou encomenda em até 72 horas. Dependendo da urgência e necessidade até no mesmo dia. </p>
 						<p class="txt-quem-somos">Temos grande malha, ligada a várias companhias aéreas que nos garante agilidade e flexibilidade para atender os nossos clientes. </p>
 						<p class="txt-quem-somos">Nossos preços e qualidade de serviço estão sem dúvida dentre os melhores do mercado.</p>
 						<p class="txt-quem-somos">Entre em contato com nossa equipe comercial e solicite uma visita ou orçamento.</p>
 						<p class="txt-quem-somos">Tel: (11) 2272-7067 / 2272-7081</p>
-						<p class="txt-quem-somos">E-mail: <a href="mailto: i9logexpress@i9logexpress.com.br">i9logexpress@i9logexpress.com.br</a></p>		
+						<p class="txt-quem-somos">E-mail: <a href="mailto:i9logexpress@i9logexpress.com.br">i9logexpress@i9logexpress.com.br</a></p>		
 					</div>
 				</article>
 			</div>
@@ -53,7 +53,7 @@
 				<?php include 'inc/bloco-lateral.php'; ?>
 			</div>
 			<div class="moca-orcamento">
-				<img src="img/moca.png">
+				<img src="img/moca.png" alt="atendimento" title="atendimento">
 			</div>
 			<!-- Bloco Menu Lateral -->			
 		</section>

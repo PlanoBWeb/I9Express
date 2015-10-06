@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo" title="Logo"></a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-9 col-md-9 pd-left-none">
@@ -24,7 +24,7 @@
                             <span class="atendimento">Atendimento 24 horas!</span>
                             <p class="txt-tel-topo txt-tel-topo-margin">Ligue: <a href="tel:01140187444">11 9-4018-7444</a> - ID: 683*17192</p>
                         </div>    
-                        <div class="area-cliente"><a href="">ÁREA DO CLIENTE</a></div>
+                        <div class="area-cliente"><a href="http://www.sysweb7.com.br/i9logexpress/" target="_blank">ÁREA DO CLIENTE</a></div>
                     </div>
                 </div>
                 <div class="row bloco-menu">
@@ -38,8 +38,8 @@
                             <li class="linha-menu-topo <?php if($pag == 'quem-somos'){ ?> linha-menu-topo-ativo <?php } ?>"><a class="link-menu-topo" href="quem-somos.php?pagina=quem-somos">quem somos</a></li>
                             <li class="drop-desk dropdown linha-menu-topo <?php if($pag == 'servicos'){ ?> linha-menu-topo-ativo <?php } ?>">
                                 <a href="express.php?pagina=servicos" class="link-menu-topo linha-servico-desk">serviços</a>
-                                <ul class="dropdown-menu dropdown-menu-desk">
-                                    <div class="bloco-dropdown-menu">
+                                <div class="dropdown-menu dropdown-menu-desk">
+                                    <ul class="bloco-dropdown-menu">
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="motoboy-no-ipiranga.php?pagina=servicos">I9 Motoboy no Ipiranga</a></li>
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="express.php?pagina=servicos">I9 Express</a></li>
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="utilitarios.php?pagina=servicos">I9 Utilitários</a></li>
@@ -47,8 +47,8 @@
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="distribuicao.php?pagina=servicos">I9 Distribuição</a></li>
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="transporte-aereo.php?pagina=servicos">I9 Transporte Aéreo</a></li>
                                         <li class="linha-menu-drop"><a class="link-menu-drop" href="transporte-rodoviario.php?pagina=servicos">I9 Transporte Rodoviário</a></li>
-                                    </div>
-                                </ul>                             
+                                    </ul>
+                                </div>                             
                             </li>
                             <li class="drop-mobile dropdown linha-menu-topo <?php if($pag == 'servicos'){ ?> linha-menu-topo-ativo <?php } ?>">
                                 <a href="express.php?pagina=servicos" class="dropdown-toggle link-menu-topo linha-servico-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">serviços <span class="caret"></span></a>

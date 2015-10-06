@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="" />
+	<meta name="description" content="Preencha nosso formulário e entraremos em contato." />
 	<link href="img/icon-tab.png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<!-- Bootstrap -->
@@ -18,7 +18,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>I9</title>
+	<title>Solicite um orçamento para motoboy, entregas, transporte de cargas.</title>
 	<script src="js/funcoes.js"></script>
 	<script type="text/javascript">
 		function enviardados2()
@@ -72,11 +72,11 @@
 				<div class="bg-container-esquerda"></div>
 				<article class="bloco-servicos">
 					<div class="bloco-titulo-servico">
-						<img class="seta-servico" src="img/seta.png">
-						<h1 class="titulo-servico">ORÇAMENTO:</h1>
+						<img class="seta-servico" src="img/seta.png" alt="seta" title="seta">
+						<h2 class="titulo-servico">ORÇAMENTO:</h2>
 					</div>
 					<div class="bloco-encapsula-servicos">
-						<p class="txt-quem-somos">Para solicitar um orçamento, preencha o formulário abaixo que retornaremos o mais breve possível.</p>
+						<h1 class="txt-quem-somos">Para solicitar um orçamento, preencha o formulário abaixo que retornaremos o mais breve possível.</h1>
 						<form class="contato-fale-conosco" method="post" action="envia.php" name="contato2">
 							<input type="hidden" name="pagina" value="<?php echo $pagina; ?>">
 							<input class="form-orcamento" type="text" name="nome" placeholder="* Nome">
@@ -93,7 +93,7 @@
 				<?php include 'inc/bloco-lateral.php'; ?>
 			</div>
 			<div class="moca-orcamento">
-				<img src="img/moca.png">
+				<img src="img/moca.png" alt="atendimento" title="atendimento">
 			</div>
 			<!-- Bloco Menu Lateral -->			
 		</section>

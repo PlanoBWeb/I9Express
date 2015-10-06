@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="" />
+	<meta name="description" content="Realizamos entregas por motoboys sp, motoboy Ipiranga sp e transporte aéreo e rodoviário." />
 	<link href="img/icon-tab.png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<!-- Bootstrap -->
@@ -18,7 +18,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>I9</title>
+	<title>Somos especialistas em entregas rápidas.</title>
 </head>
 <body>
 	<div class="container-fluid">
@@ -33,11 +33,11 @@
 				<div class="bg-container-esquerda"></div>
 				<article class="bloco-servicos">
 					<div class="bloco-titulo-servico">
-						<img class="seta-servico" src="img/seta.png">
-						<h1 class="titulo-servico">QUEM SOMOS:</h1>
+						<img class="seta-servico" src="img/seta.png" alt="seta" title="seta">
+						<h2 class="titulo-servico">QUEM SOMOS:</h2>
 					</div>
 					<div class="bloco-encapsula-servicos">
-						<h1 class="titulo-bloco-quem">I9 Express</h1>
+						<h2 class="titulo-bloco-quem">I9 Express</h2>
 					<p class="txt-quem-somos">A I9 Express é uma empresa de entregas rápidas especializada no transporte de encomendas de pequeno e médio porte. Priorizamos a total satisfação dos nossos clientes, atendendo às necessidades e solicitações com eficiência e rapidez, contando com profissionais bem treinados, mantendo a credibilidade, transparência, e a qualidade de nossos serviços. </p><br><br>
 					<h1 class="titulo-bloco-quem">Nossa estrutura conta com: </h1>
 					<p class="txt-quem-somos">• Funcionários devidamente registrados em regime CLT, uniformizados e equipados com rádio /celular, além de acessórios como mochilas, pastas ou baú. </p>
@@ -51,7 +51,7 @@
 				<?php include 'inc/bloco-lateral.php'; ?>
 			</div>
 			<div class="moca-orcamento">
-				<img src="img/moca.png">
+				<img src="img/moca.png" alt="atendimento" title="atendimento">
 			</div>
 			<!-- Bloco Menu Lateral -->			
 		</section>

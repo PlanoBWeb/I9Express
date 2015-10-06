@@ -115,8 +115,13 @@ a:hover{
     position: fixed;
     right: 0px;
     z-index: 999;
-    top: 60%;
+    top: 80%;
     display: none;
+}
+
+.img-icon-servico{
+    margin-right: 10px;
+    float: left;
 }
 /*
 * Default
@@ -295,6 +300,10 @@ header{
     height: auto;
     margin-bottom: 20px;
     display: table;
+}
+
+.bloco-servico img{
+    float: left;
 }
 
 .bloco-titulo-servico{

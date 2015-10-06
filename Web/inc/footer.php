@@ -12,15 +12,15 @@
 			</ul>
 		</nav>
 		<p class="txt-direitos">I9 Log Express - 2015 - Todos os direitos reservados</p>
-		<a href="http://planobweb.com.br/" target="_blank"><img class="img-planob" src="img/planob.png"></a>
+		<a href="http://planobweb.com.br/" target="_blank"><img class="img-planob" src="img/planob.png" alt="PlanoBWeb" title="PlanoBWeb"></a>
 		<p class="txt-dev">Desenvolvimento</p>		
 	</section>
 	<section class="rodape-mobile">		
 			<p class="txt-direitos">I9 Log Express - 2015 - Todos os direitos reservados</p>
-		<div class="bloco-direitos-mobile">
-			<a href="http://planobweb.com.br/" target="_blank"><img class="img-planob" src="img/logo_planob.jpg"></a>
-			<p class="txt-dev">Desenvolvimento</p>	
-		</div>
+			<div class="bloco-direitos-mobile">
+				<a href="http://planobweb.com.br/" target="_blank"><img class="img-planob" src="img/logo_planob.jpg" alt="PlanoBWeb" title="PlanoBWeb"></a>
+				<p class="txt-dev">Desenvolvimento</p>	
+			</div>
 	</section>
 </footer>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
